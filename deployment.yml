@@ -15,7 +15,7 @@ spec:
         app: mypythonflaskdemo
     spec:
       containers:
-      - image: "balaji2018/testrepo12:mypython-project"
+      - image: "balaji2018/my-images:1"
         name: flaskdemo-pod
         ports:
           - name: http
